@@ -1,0 +1,56 @@
+body{
+    background: #000;
+    margin: 0;
+    padding: 0;
+    max-height: 100%;
+    color: aliceblue;
+    font-family: cursive;
+}
+
+.date{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.date span{
+    background: #ed1b5e;
+    font-size: 50px;
+    padding: 0px 30px;
+    border:solid #fff;
+    
+}
+
+.time{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 12rem;
+}
+
+.time span{
+    background: #042fee;
+    font-size: 80px;
+    padding: 0px 2  0px;
+    border:solid #fff;
+}
+
+a{
+    margin-top: 4rem;
+    background: red;
+    color: #fff;
+    width: 11rem;
+    font-size: 2rem;
+    border: solid 2px white;
+    font-family: cursive;
+    text-align: center;
+    text-decoration: none;
+
+}
+
+a:visited{
+    text-decoration: none;
+    color: #fff;
+}
+
